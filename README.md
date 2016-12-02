@@ -1,0 +1,2 @@
+# JBossFuse
+JBoss Fuse Samples
