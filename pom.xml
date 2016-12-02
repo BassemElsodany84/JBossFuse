@@ -132,6 +132,8 @@
       <url>https://maven.repository.redhat.com/ga</url>
     </pluginRepository>
   </pluginRepositories>
+  
+  
   <build>
     <defaultGoal>install</defaultGoal>
     <plugins>
@@ -150,10 +152,10 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.5.1</version>
-        <configuration>
+        <!--  configuration>
           <source>1.8</source>
           <target>1.8</target>
-        </configuration>
+        </configuration-->
       </plugin>
       <plugin>
         <artifactId>maven-resources-plugin</artifactId>
@@ -169,7 +171,9 @@
       </plugin>
     </plugins>
   </build>
+  
   <modules>
   <module>HelloWorld</module>
+  <module>helloWorldFabric</module>
   </modules>
 </project>
