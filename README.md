@@ -1,2 +1,2 @@
 # JBossFuse
-JBoss Fuse Samples
+JBoss Fuse Fabric Samples with apache Camel and Active MQ
